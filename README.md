@@ -1,7 +1,7 @@
 # -Data-Challenge-20221121
 Resolução do desafio para a vaga de Data Analyst 
 
-Carregaguei toda a informação dos dados para fazer análises exploratórias utilizando o método pd.read_csv do pandas e o info() para ver os tipos de dados. 
+Carreguei toda a informação dos dados para fazer análises exploratórias utilizando o método pd.read_csv do pandas e o info() para ver os tipos de dados. 
 
 Para conseguir mesclar os dados você deverá tomar cuidado para que os identificadores não sobreponham valores.
 
@@ -9,12 +9,12 @@ Para filtrar e manipular dados foi utilizado o Google Colab e Biblioteca Pandas.
 
 1- Top 10 atores/atrizes considerando todos os dados;
 
-Para verificar os Top 10 atores/atrizes considerando todos os dados, você precisa contar o número de vezes que cada ator/atriz aparece nos dados. O método utiliado foi o value_counts() para contar o número de vezes que cada ator/atriz aparece na coluna "ator". Em seguida, ele usa o método head() para obter os 10 atores/atrizes com mais ocorrências. Finalmente, ele imprime os resultados na tela.
+Para rankear os Top 10 atores/atrizes considerando todos os dados, você precisa contar o número de vezes que cada ator/atriz aparece nos dados. O método utiliado foi o value_counts() para contar o número de vezes que cada ator/atriz aparece na coluna "ator". Em seguida, ele usa o método head() para obter os 10 atores/atrizes com mais ocorrências. Finalmente, ele imprime os resultados na tela.
 
 
 2- Top 5 países produtores de conteúdos considerando todos os dados e comparando as duas plataformas;
 
-Para verificar os Top 5 países produtores de conteúdo considerando todos os dados e comparando as duas plataformas, você pode usar a biblioteca pandas do Python para carregar os dados dos dois arquivos CSV em dois objetos DataFrame separados e, em seguida, concatenar os dois dataframes em um único dataframe com todas as informações. Em seguida, você pode usar o método groupby() para agrupar os dados por país e contar o número de ocorrências de cada país. Finalmente, você pode classificar os países em ordem decrescente e imprimir os Top 5.
+Para rankear os Top 5 países produtores de conteúdo considerando todos os dados e comparando as duas plataformas, você pode usar a biblioteca pandas do Python para carregar os dados dos dois arquivos CSV em dois objetos DataFrame separados e, em seguida, concatenar os dois dataframes em um único dataframe com todas as informações. Em seguida, você pode usar o método groupby() para agrupar os dados por país e contar o número de ocorrências de cada país. Finalmente, você pode classificar os países em ordem decrescente e imprimir os Top 5.
 
 3- Mês no qual há mais adições de filmes na plataforma Netflix;
 
