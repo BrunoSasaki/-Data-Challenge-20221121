@@ -1,4 +1,4 @@
-# -Data-Challenge-20221121
+# Data-Challenge-20221121
 Resolução do desafio para a vaga de Data Analyst 
 
 Carreguei toda a informação dos dados para fazer análises exploratórias utilizando o método pd.read_csv do pandas e o info() para ver os tipos de dados. 
