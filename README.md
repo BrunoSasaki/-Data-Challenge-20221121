@@ -3,8 +3,6 @@ Resolução do desafio para a vaga de Data Analyst
 
 Carreguei toda a informação dos dados para fazer análises exploratórias utilizando o método pd.read_csv do pandas e o info() para ver os tipos de dados. 
 
-Para conseguir mesclar os dados você deverá tomar cuidado para que os identificadores não sobreponham valores.
-
 Para filtrar e manipular dados foi utilizado o Google Colab e Biblioteca Pandas.
 
 1- Top 10 atores/atrizes considerando todos os dados;
