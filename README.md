@@ -7,7 +7,7 @@ Para filtrar e manipular dados foi utilizado o Google Colab e Biblioteca Pandas.
 
 1- Top 10 atores/atrizes considerando todos os dados;
 
-Para rankear os Top 10 atores/atrizes considerando todos os dados, você precisa contar o número de vezes que cada ator/atriz aparece nos dados. O método utiliado foi o value_counts() para contar o número de vezes que cada ator/atriz aparece na coluna "ator". Em seguida, ele usa o método head() para obter os 10 atores/atrizes com mais ocorrências. Finalmente, ele imprime os resultados na tela.
+Para rankear os Top 10 atores/atrizes considerando todos os dados, você precisa contar o número de vezes que cada ator/atriz aparece nos dados. O método utilizado foi o value_counts() para contar o número de vezes que cada ator/atriz aparece na coluna "cast". Em seguida, ele usa o método head() para obter os 10 atores/atrizes com mais ocorrências. Finalmente, ele imprime os resultados na tela.
 
 
 2- Top 5 países produtores de conteúdos considerando todos os dados e comparando as duas plataformas;
